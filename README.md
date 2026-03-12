@@ -29,6 +29,36 @@
 ### Actual Costs (Screenshot 4)
 [INSERT SCREENSHOT: Cost analysis showing minimal spend]
 
+
+
+---
+
+## ✅ **Screenshot Checklist for Budget Alerts**
+
+| # | Screenshot | Caption | Status |
+|---|------------|---------|--------|
+| 1 | Cost Management + Billing navigation | *Navigating to Cost Management* | ⬜ |
+| 2 | Budgets page | *Budgets section in Cost Management* | ⬜ |
+| 3 | Create budget button | *Starting budget creation* | ⬜ |
+| 4 | Basic configuration (scope, amount) | *Setting $20 budget at resource group scope* | ⬜ |
+| 5 | Alert conditions with multiple thresholds | *Configuring 50%, 80%, 90%, 100%, 120% alerts* | ⬜ |
+| 6 | Action Group configuration | *Email recipients for all team members* | ⬜ |
+| 7 | Review and create page | *Final budget review before creation* | ⬜ |
+| 8 | Budget list showing created budget | *Completed budget in list view* | ⬜ |
+| 9 | Cost analysis with budget overlay | *Spending trend against budget* | ⬜ |
+| 10 | Sample alert email (optional) | *Example of notification received* | ⬜ |
+
+---
+
+## ⚠️ **Important Notes for Your Project**
+
+1. **Cost data latency**: Azure cost data can take 24-48 hours to appear, so alerts aren't real-time [citation:7]
+2. **No automatic shutdown**: Budget alerts only notify; they don't stop resources [citation:4]
+3. **Multiple thresholds recommended**: Since alerts fire only once per threshold, having multiple (50%, 80%, 90%, 100%) gives you progressive warnings [citation:10]
+4. **Test before demo**: Send a test alert to verify all team members receive notifications
+
+Would you like me to help with any other aspect of your cost management documentation?
+
 ##  INTEGRATION RUNBOOK
 
 ### Deployment Order Verification
